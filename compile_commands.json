@@ -1,0 +1,52 @@
+[
+  {
+    "directory": "D:/Development/MemoryCollector",
+    "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra -Iinclude -c src/mem_pal.c -o bin/mem_pal.o",
+    "file": "src/mem_pal.c"
+  },
+  {
+    "directory": "D:/Development/MemoryCollector",
+    "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra -Iinclude -c src/mem_alloc.c -o bin/mem_alloc.o",
+    "file": "src/mem_alloc.c"
+  },
+  {
+    "directory": "D:/Development/MemoryCollector",
+    "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra -Iinclude -c src/mem_roots.c -o bin/mem_roots.o",
+    "file": "src/mem_roots.c"
+  },
+  {
+    "directory": "D:/Development/MemoryCollector",
+    "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra -Iinclude -c src/mem_collector.c -o bin/mem_collector.o",
+    "file": "src/mem_collector.c"
+  },
+  {
+    "directory": "D:/Development/MemoryCollector",
+    "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra -Iinclude -c src/mem_vm.c -o bin/mem_vm.o",
+    "file": "src/mem_vm.c"
+  },
+  {
+    "directory": "D:/Development/MemoryCollector",
+    "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra -Iinclude -c examples/demo_basic.c -o bin/demo_basic.o",
+    "file": "examples/demo_basic.c"
+  },
+  {
+    "directory": "D:/Development/MemoryCollector",
+    "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra -Iinclude -c examples/demo_cycles.c -o bin/demo_cycles.o",
+    "file": "examples/demo_cycles.c"
+  },
+  {
+    "directory": "D:/Development/MemoryCollector",
+    "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra -Iinclude -c examples/demo_promotion.c -o bin/demo_promotion.o",
+    "file": "examples/demo_promotion.c"
+  },
+  {
+    "directory": "D:/Development/MemoryCollector",
+    "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra -Iinclude -c examples/demo_compaction.c -o bin/demo_compaction.o",
+    "file": "examples/demo_compaction.c"
+  },
+  {
+    "directory": "D:/Development/MemoryCollector",
+    "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra -Iinclude -c examples/demo_vm.c -o bin/demo_vm.o",
+    "file": "examples/demo_vm.c"
+  }
+]
